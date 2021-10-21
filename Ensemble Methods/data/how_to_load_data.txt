@@ -1,0 +1,10 @@
+########### Problem 3 #############
+All sets including train, validation and test are stored in the P3_data.npz file.
+You may load data in the following way:
+
+---------------------------------------
+dat = np.load('./data.npz')
+X_train,y_train = dat['X_train'],dat['y_train']
+X_val,y_val = dat['X_val'],dat['y_val']
+X_test,y_test = dat['X_test'],dat['y_test']
+---------------------------------------
